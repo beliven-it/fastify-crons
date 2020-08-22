@@ -1,0 +1,40 @@
+{
+  "name": "fastify-cron",
+  "version": "0.0.1",
+  "description": "A plugin to schedule cron jobs",
+  "main": "cron.js",
+  "scripts": {
+    "test": "npx tap -Rspec --coverage test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heply/fastify-cron.git"
+  },
+  "keywords": [
+    "fastify",
+    "plugin",
+    "cron",
+    "jobs",
+    "automation"
+  ],
+  "author": "Heply s.r.l.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heply/fastify-cron/issues"
+  },
+  "homepage": "https://github.com/heply/fastify-cron#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "fastify": "^3.2.1",
+    "tap": "^14.10.8"
+  },
+  "dependencies": {
+    "fastify-plugin": "^2.3.1",
+    "node-cron": "^2.0.3"
+  }
+}
