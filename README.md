@@ -4,6 +4,8 @@ A plugin to schedule cron jobs
 
 https://en.wikipedia.org/wiki/Cron
 
+![Node.js CI](https://github.com/heply/fastify-cron/workflows/Node.js%20CI/badge.svg)
+
 ## Install
 
 ```bash
