@@ -11,7 +11,7 @@ module.exports = fp(function (fastify, opts, next) {
     })
   }
 
-  fastify.decorate('cron', {
+  fastify.decorate('crons', {
     schedule
   })
 

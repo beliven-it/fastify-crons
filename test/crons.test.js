@@ -11,12 +11,12 @@ const buildApp = function (t) {
   return fastify
 }
 
-test('fastify-cron', async t => {
+test('fastify-crons', async t => {
   t.test('without options', async t => {
     t.plan(1)
     const fastify = await buildApp(t)
     try {
-      await fastify.register(require('../cron'))
+      await fastify.register(require('../crons'))
       t.true('cron' in fastify, 'should register the plugin')
     } catch (err) {
       console.log(err)

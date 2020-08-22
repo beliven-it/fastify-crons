@@ -1,31 +1,31 @@
-# fastify-cron
+# fastify-crons
 
 A plugin to schedule cron jobs
 
 https://en.wikipedia.org/wiki/Cron
 
-![Node.js CI](https://github.com/heply/fastify-cron/workflows/Node.js%20CI/badge.svg)
+![Node.js CI](https://github.com/heply/fastify-crons/workflows/Node.js%20CI/badge.svg)
 
 ## Install
 
 ```bash
-$ npm i --save fastify-cron
+$ npm i --save fastify-crons
 ```
 
 ## Usage
 
 ```js
-fastify.register(require('fastify-cron'), {
+fastify.register(require('fastify-crons'), {
   timezone: 'Europe/Rome'
 })
 
-fastify.cron.schedule('*/2 * * * *', () => {
+fastify.crons.schedule('*/2 * * * *', () => {
   console.log('Hi!')
 })
 
 // OR:
 
-const task = fastify.cron.schedule('*/2 * * * *', () => {
+const task = fastify.crons.schedule('*/2 * * * *', () => {
   console.log('Hi!')
 }, {
   scheduled: false
