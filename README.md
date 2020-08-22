@@ -20,6 +20,16 @@ fastify.register(require('fastify-cron'), {
 fastify.cron.schedule('*/2 * * * *', () => {
   console.log('Hi!')
 })
+
+// OR:
+
+const task = fastify.cron.schedule('*/2 * * * *', () => {
+  console.log('Hi!')
+}, {
+  scheduled: false
+})
+
+task.start()
 ```
 
 Under the hood, [node-cron](https://www.npmjs.com/package/node-cron#options) is used.
