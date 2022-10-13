@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heply/fastify-crons.git"
+    "url": "git+https://github.com/beliven-it/fastify-crons.git"
   },
   "keywords": [
     "fastify",
@@ -17,12 +17,12 @@
     "jobs",
     "automation"
   ],
-  "author": "Heply s.r.l.",
+  "author": "Beliven",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/heply/fastify-crons/issues"
+    "url": "https://github.com/beliven-it/fastify-crons/issues"
   },
-  "homepage": "https://github.com/heply/fastify-crons#readme",
+  "homepage": "https://github.com/beliven-it/fastify-crons#readme",
   "devDependencies": {
     "eslint": "^7.7.0",
     "eslint-config-standard": "^14.1.1",
